@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'components/menu_lateral_platzi.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -18,9 +20,20 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("MENU LATERAL"),
+          ),
+          drawer: MenuLateralplatzi(),
+          body: Center(
+          //child: new DescriptionPlace("Noreibi Leal"),
+           //child: Reto2Platzi(),
+           child: Text ("Home"),
+        ),
+      ) //MyHomePage(title: 'Hola mi amor'),
+    
     );
   }
 }
