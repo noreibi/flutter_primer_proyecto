@@ -12,7 +12,7 @@ Widget build (BuildContext context){
           accountEmail: Text("noreibileal@gmail.com"),
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: NetworkImage('https://i.pinimg.com/originals/20/f7/8d/20f78d4fa88e410b775e4cd4d911f7ef.jpg'),
+              image: AssetImage('assets/img/otono_red.jpg'),
           fit: BoxFit.cover,
           ),
           )
