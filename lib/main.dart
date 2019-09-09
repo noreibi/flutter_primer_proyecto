@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'components/review.dart';
+
 import 'components/menu_lateral_platzi.dart';
 
 void main() => runApp(MyApp());
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
           //child: new DescriptionPlace("Noreibi Leal"),
            //child: Reto2Platzi(),
            //child: Review(),
-           child: Text ("Home"),
+           child: Text("Home"),
         ),
       ) //MyHomePage(title: 'Hola mi amor'),
     

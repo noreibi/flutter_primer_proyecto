@@ -20,7 +20,7 @@ Widget build(BuildContext context){
       ),
       
       child: Text( 
-        details,
+        comment,
         textAlign: TextAlign.left,
         style: TextStyle(
           fontFamily: "Lato",
@@ -31,7 +31,7 @@ Widget build(BuildContext context){
       ),
 
       );
-      
+
 
    final userInfo= Container(
        margin: EdgeInsets.only(
@@ -100,7 +100,7 @@ Widget build(BuildContext context){
   return Row(
     children: <Widget>[
       photo,
-      userComment
+      userDetails
 
     ],
   );
