@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
           body: Center(
           //child: new DescriptionPlace("Noreibi Leal"),
            //child: Reto2Platzi(),
+           //child: Review(),
            child: Text ("Home"),
         ),
       ) //MyHomePage(title: 'Hola mi amor'),
