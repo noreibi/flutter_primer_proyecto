@@ -9,10 +9,10 @@ Widget build (BuildContext context){
  return Column(
    crossAxisAlignment: CrossAxisAlignment.start,
    children: <Widget>[
-     Review (pathimage, name, details, comment),
-     Review (pathimage, name, details, comment),
-     Review (pathimage, name, details, comment),
+     Review ("assets/img/cienaga.jpg", "Varuna Yasas", "1 review 5 photos", " Todo bien, todo correcto"),
+     Review ("assets/img/cienaga.jpg", "Varuna Yasas", "1 review 5 photos", " Todo bien, todo correcto"),
+     Review ("assets/img/cienaga.jpg", "Varuna Yasas", "1 review 5 photos", " Todo bien, todo correcto"),
    ],
  );
- 
+}
 }
