@@ -4,8 +4,8 @@ class GradientHeader extends StatelessWidget{
 
   String title ="Popular";
 
-  GradientHeader(this.title)
-  
+  GradientHeader(this.title);
+
   @override
  Widget build (BuildContext context){
    //TODO: implement build
@@ -16,7 +16,7 @@ class GradientHeader extends StatelessWidget{
       gradient: LinearGradient(
         colors: [
           Color(0xFF4268d3),
-          Color(0xFF584CD1)
+          Color(0xFF584CD1),
         ],
         begin: FractionalOffset(0.2, 0.0),
         end: FractionalOffset(1.0, 0.6),
