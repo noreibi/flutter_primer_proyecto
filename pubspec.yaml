@@ -70,6 +70,18 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato/Lato-ThinItalic.ttf
+        - asset: fonts/Lato/Lato-Thin.ttf
+        - asset: fonts/Lato/Lato-RegularItalic.ttf
+        - asset: fonts/Lato/Lato-Regular.ttf
+        - asset: fonts/Lato/Lato-LightItalic.ttf
+        - asset: fonts/Lato/Lato-Light.ttf
+        - asset: fonts/Lato/Lato-BoldItalic.ttf
+        - asset: fonts/Lato/Lato-Bold.ttf
+        - asset: fonts/Lato/Lato-BlackItalic.ttf
   assets:
    - assets/img/cienaga.jpg
    - assets/img/otono_red.jpg
