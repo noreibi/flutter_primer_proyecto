@@ -1,5 +1,7 @@
+import 'package:curso_flutter/components/card_imagelist.dart';
 import 'package:curso_flutter/components/description_place.dart';
 import 'package:curso_flutter/components/gradient_header.dart';
+import 'package:curso_flutter/components/header_appbar.dart';
 import 'package:curso_flutter/components/review_list.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +14,7 @@ class Home extends StatelessWidget{
         GradientHeader("Popular"),
         DescriptionPlace("Cayo la Rosa"),
         ReviewList(),
+        HeaderAppbar(),
       ],
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../utils/constants.dart' as Constants;
+import 'package:curso_flutter/components/button_app.dart';
 
 class DescriptionPlace extends StatelessWidget{
  String _name;
@@ -10,9 +11,11 @@ DescriptionPlace(this._name);
 Widget build(BuildContext context){
    //TODO: implement build
   return Column(
+    crossAxisAlignment: CrossAxisAlignment.start,
     children: <Widget>[
        dibujarTituloYEstrella(),
-       mostrarParrafo(_parrafo)
+       mostrarParrafo(_parrafo),
+       ButtonApp("Navigate"),
     ],
   )
   
