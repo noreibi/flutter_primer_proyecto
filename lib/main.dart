@@ -1,8 +1,7 @@
+import 'package:curso_flutter/screen/home.dart';
+import 'package:curso_flutter/screen/profile.dart';
+import 'package:curso_flutter/screen/search.dart';
 import 'package:flutter/material.dart';
-
-import 'components/review.dart';
-
-import 'components/menu_lateral_platzi.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,6 +9,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -25,15 +25,16 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       home: Scaffold(
-        appBar: AppBar(
+        /*appBar: AppBar(
           title: Text("MENU LATERAL"),
-          ),
-          drawer: MenuLateralplatzi(),
+          ),*/
+          //drawer: MenuLateralplatzi(),
           body: Center(
           //child: new DescriptionPlace("Noreibi Leal"),
            //child: Reto2Platzi(),
-           //child: Review(),
-           child: Text("Home"),
+
+           child: Home (),
+           //child: Text("Home"),
         ),
       ) //MyHomePage(title: 'Hola mi amor'),
     

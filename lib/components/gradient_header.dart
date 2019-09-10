@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import '../utils/constants.dart' as Constants;
 class GradientHeader extends StatelessWidget{
 
   String title ="Popular";
@@ -15,8 +15,8 @@ class GradientHeader extends StatelessWidget{
     decoration: BoxDecoration(
       gradient: LinearGradient(
         colors: [
-          Color(0xFF4268d3),
-          Color(0xFF584CD1),
+          Color(Constants.COLOR_BEGIN),
+          Color(Constants.COLOR_END),
         ],
         begin: FractionalOffset(0.2, 0.0),
         end: FractionalOffset(1.0, 0.6),
@@ -29,7 +29,7 @@ class GradientHeader extends StatelessWidget{
       style: TextStyle(
         color: Colors.white,
         fontSize: 30.0,
-        fontFamily: "Lato",
+        fontFamily: Constants.FONT,
         fontWeight: FontWeight.bold
       ),
     ),

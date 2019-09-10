@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart' as prefix0;
+import '../utils/constants.dart' as Constants;
 
 class DescriptionPlace extends StatelessWidget{
  String _name;
@@ -23,7 +23,7 @@ Row dibujarTituloYEstrella(){
   return Row (
           children: <Widget>[
             Container(
-              width: 170,
+              width: 140,
               margin: EdgeInsets.only(
                 top: 100.0,
                 left: 20.0,
@@ -41,8 +41,9 @@ Text name(String name){
   return Text(
          name,
           style: TextStyle(
-            fontSize: 25.0,
-            fontWeight: FontWeight.w900
+            fontSize: 20.0,
+            fontWeight: FontWeight.w900,
+            fontFamily: Constants.FONT
           ),
           textAlign: TextAlign.left,
         );
@@ -53,6 +54,9 @@ Container mostrarParrafo(String texto){
     child: Text(
          texto,          
           textAlign: TextAlign.left,
+          style: TextStyle(
+            fontFamily: Constants.FONT
+          ),
         ),
     margin: EdgeInsets.only(left:10, right: 10, top: 20),
   )
@@ -68,7 +72,7 @@ Container dibujarStrella(IconData estrella){
     ),
     child: Icon(
       estrella,
-        color: Colors.orange,
+        color: Color(Constants.COLOR_COMPLEMENTARY),
     ),
   );
 }

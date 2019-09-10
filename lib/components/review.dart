@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../utils/constants.dart' as Constants;
 
 
 class Review extends StatelessWidget{
@@ -23,7 +24,7 @@ Widget build(BuildContext context){
         comment,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontFamily: "Lato",
+          fontFamily: Constants.FONT,
           fontSize: 13.0,
           fontWeight: FontWeight.w900
         ),
@@ -42,7 +43,7 @@ Widget build(BuildContext context){
         details,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontFamily: "Lato",
+          fontFamily: Constants.FONT,
           fontSize: 13.0,
           fontWeight: FontWeight.w900
         ),
@@ -61,7 +62,7 @@ Widget build(BuildContext context){
         name,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontFamily: "Lato",
+          fontFamily:Constants.FONT,
           fontSize: 17.0
         ),
 
@@ -92,7 +93,7 @@ Widget build(BuildContext context){
       shape: BoxShape.circle,
       image: DecorationImage(
         fit: BoxFit.cover,
-        image: AssetImage("pathimage")
+        image: AssetImage(pathimage)
         )
     ),
   );
