@@ -12,6 +12,14 @@ ButtonApp (thisbuttonText);
   Widget build(BuildContext context) {
     // TODO: implement build
     return InkWell(
+      onTap: () {
+        Scaffold.of(context). showSnackBar(
+          SnackBar(
+            content: Text("Navegando"),
+            )
+        );
+      },
+
       child: Container(
         margin: EdgeInsets.only(
           top: 30.0,
@@ -46,4 +54,7 @@ ButtonApp (thisbuttonText);
     );
   }
   
+}
+
+class Snackbar {
 }

@@ -3,6 +3,7 @@ import 'package:curso_flutter/screen/profile.dart';
 import 'package:curso_flutter/screen/search.dart';
 import 'package:flutter/material.dart';
 
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

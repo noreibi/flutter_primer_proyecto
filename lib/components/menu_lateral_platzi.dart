@@ -18,7 +18,7 @@ Widget build (BuildContext context){
           )
         ),
           new ListTile(
-            title: Text("MENU 1"),
+            title: Text("MENU 1", style: TextStyle(color: Colors.white),),
           ),
           new ListTile(
             title: Text("MENU 2"),
