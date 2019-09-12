@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'card_image.dart';
 
-class CardImagesList extends StatelessWidget{
+class CardImagesList extends StatelessWidget {
+  String parhImage = "assets/img/cienaga.jpg";
 
-  String parhImage="assets/img/cienaga.jpg";
- 
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -15,10 +14,9 @@ class CardImagesList extends StatelessWidget{
         padding: EdgeInsets.all(25.0),
         scrollDirection: Axis.horizontal,
         children: <Widget>[
-          CardImage("hola"),
+          CardImage("assets/img/cienaga.jpg"),
         ],
       ),
     );
   }
-  
 }
