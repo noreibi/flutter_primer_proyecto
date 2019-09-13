@@ -13,9 +13,10 @@ class Home extends StatelessWidget {
     return ListView(
       children: <Widget>[
         //GradientHeader("Popular"),
-        //DescriptionPlace("Cayo la Rosa"),
-        //ReviewList(),
         HeaderAppbar(),
+        DescriptionPlace("Cayo la Rosa"),
+        ReviewList(),
+        
       ],
     );
   }

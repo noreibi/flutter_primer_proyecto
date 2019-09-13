@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.red,
         ),
         home: Scaffold(
-          appBar:
-              AppBar(title: Text("MENU LATERAL"), shape: CustomShapeBorder()),
+         /* appBar:
+              AppBar(title: Text("MENU LATERAL"), shape: CustomShapeBorder()),*/
           //drawer: MenuLateralplatzi(),
           body: Center(
             //child: new DescriptionPlace("Noreibi Leal"),

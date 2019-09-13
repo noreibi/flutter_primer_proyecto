@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../utils/constants.dart' as Constants;
 
 
 
@@ -32,8 +33,8 @@ ButtonApp (thisbuttonText);
           borderRadius: BorderRadius.circular(30.0),
             gradient: LinearGradient(
               colors: [
-                Color(0XFFFFb74D),
-                Color(0XFFFFb74D)
+                Color(Constants.COLOR_BEGIN),
+                Color(Constants.COLOR_END)
               ],
               begin: FractionalOffset(0.2, 0.0),
               end: FractionalOffset(1.0, 0.6),

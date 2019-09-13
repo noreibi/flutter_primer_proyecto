@@ -28,7 +28,6 @@ Row dibujarTituloYEstrella(){
             Container(
               width: 140,
               margin: EdgeInsets.only(
-                top: 100.0,
                 left: 20.0,
                 right: 20.0
               ),
@@ -70,7 +69,7 @@ Container mostrarParrafo(String texto){
 Container dibujarStrella(IconData estrella){
   return Container(
     margin: EdgeInsets.only(
-      top: 100.0,
+      
       right: 3.0
     ),
     child: Icon(
