@@ -4,6 +4,7 @@ import 'package:curso_flutter/screen/search.dart';
 import 'package:flutter/material.dart';
 
 import 'components/Menu_curved.dart';
+import 'components/buttom_cupertino_navigation_bar.dart';
 import 'components/menu_lateral_platzi.dart';
 
 void main() => runApp(MyApp());
@@ -17,22 +18,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Scaffold(
-         appBar:
-              AppBar(title: Text("MENU LATERAL"), shape: CustomShapeBorder(), 
-              leading: IconButton(
-                icon: const Icon(Icons.dehaze, color: Colors.white,),
-                ),
-                ),
-          //drawer: MenuLateralplatzi(),//
-          body: Center(
-            //child: new DescriptionPlace("Noreibi Leal"),
-            //child: Reto2Platzi(),
-
-            child: Search(),
-            //child: Text("Home"),
-          ),
-        ) //MyHomePage(title: 'Hola mi amor'),
+        home: ButtomCupertinoNavigationBar() //MyHomePage(title: 'Hola mi amor'),
 
         );
   }
