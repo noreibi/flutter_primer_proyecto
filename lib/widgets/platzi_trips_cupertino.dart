@@ -1,10 +1,10 @@
-import 'package:curso_flutter/screen/home.dart';
-import 'package:curso_flutter/screen/profile.dart';
-import 'package:curso_flutter/screen/search.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'home_trips.dart';
+import 'search_trips.dart';
+import 'profile_trips.dart';
 
-class ButtomCupertinoNavigationBar extends StatelessWidget{
+class PlatziTripsCupertino extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -31,24 +31,25 @@ class ButtomCupertinoNavigationBar extends StatelessWidget{
           switch (index) {
             case 0:
               return CupertinoTabView(
-                builder: (BuildContext context) => Home(),
+                builder: (BuildContext context) => HomeTrips(),
               );
               break;
             case 1:
               return CupertinoTabView(
-                builder: (BuildContext context) => Search(),
+                builder: (BuildContext context) => SearchTrips(),
               );
               break;
             case 2:
               return CupertinoTabView(
-                builder: (BuildContext context) => Profile(),
+                builder: (BuildContext context) => ProfileTrips(),
               );
               break;
+
           }
+
         },
       ),
     );
   }
 
 }
-
