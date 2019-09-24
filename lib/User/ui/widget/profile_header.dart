@@ -21,7 +21,7 @@ class ProfileHeader extends StatelessWidget {
           Row(
             children: <Widget>[title],
           ),
-          UserInfo('assets/img/ann.jpg', 'Anahí Salgado', 'anahi@platzi.com'),
+          UserInfo('assets/img/cienaga.jpg', 'Anahí Salgado', 'anahi@platzi.com'),
           ButtonsBar()
         ],
       ),
